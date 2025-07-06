@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  background-color: #444;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@keyframes animepenis {
+  0%, 100% {
+    background: #00ffff;
+  }
+  50% {
+    background: #ff00ff;
+  }
+}
+@media (max-width: 480px) {
+  .penis {
+    animation: animepenis 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  width: 200px;
+  animation: animepenis 2s infinite;
+}
+}
+
+@keyframes animepenis2 {
+  0%, 100% {
+    background: #ff0000;
+  }
+  50% {
+    background: #0400ff;
+  }
+}
+@media (min-width: 1024px) {
+
+  .penis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  width: 200px;
+  animation: animepenis2 1s infinite;
+}
+}
